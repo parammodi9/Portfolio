@@ -616,3 +616,12 @@ footer a {
     font-size: 1.2rem;
   }
 }
+/* Preloader */
+#preloader{
+  background: #000 url(images/animation_5.gif) no-repeat center center;
+  background-size: 30%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}

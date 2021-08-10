@@ -26,6 +26,7 @@
 </script>
 </head>
 <body>
+    <div id="preloader"></div>
     <!-- <div class="container-fluid" id='test'>
         <div class="container-fluid">
             <div class="container-fluid" id="particles-js">
@@ -372,6 +373,13 @@
             </Footer>
             </main>
             <script src='main.js'></script>
+            <script>
+                var loader = document.getElementById("preloader");
+
+                window.addEventListener("load", function(){
+                    loader.style.display = "none";
+                })
+            </script>
         </body>
     </html>
 
